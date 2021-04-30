@@ -55,3 +55,8 @@
   cursor: pointer;
   border-radius: 5px;
 }
+@media (max-width: 1000px) {
+  .card {
+    width: 30%;
+  }
+}
