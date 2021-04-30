@@ -1,9 +1,13 @@
+import { Switch, Route} from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
-      <h1>Strawhat dev</h1>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+      </Switch>
     </>
   );
 }
