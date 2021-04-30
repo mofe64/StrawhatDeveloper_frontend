@@ -50,7 +50,7 @@ const Home = function () {
                             <div className='post-title'>
                                 <h1>Some other title</h1>
                             </div>
-                            <div className='post-text'>
+                            <div className='post-text sub-post-text'>
                                 <p>
                                     Some Paragraph about the post to serve as an intro
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
@@ -74,7 +74,7 @@ const Home = function () {
                             <div className='post-title'>
                                 <h1>Some other title</h1>
                             </div>
-                            <div className='post-text'>
+                            <div className='post-text sub-post-text'>
                                 <p>
                                     Some Paragraph about the post to serve as an intro
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,

@@ -60,3 +60,8 @@
     width: 30%;
   }
 }
+@media (max-width: 780px) {
+  .card {
+    width: 46%;
+  }
+}
