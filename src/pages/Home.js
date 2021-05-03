@@ -3,6 +3,8 @@ import '../css/home.css';
 import sampleImage1 from '../assets/karsten-winegeart-guCLBw5Cflc-unsplash.jpg';
 import sampleImage2 from '../assets/paul-hanaoka-kDrEpX6Yo_w-unsplash.jpg';
 import sampleImage3 from '../assets/taylor-smith-aDZ5YIuedQg-unsplash.jpg';
+import Card from '../components/card';
+
 
 const Home = function () {
     return (
@@ -48,7 +50,7 @@ const Home = function () {
                             <div className='post-title'>
                                 <h1>Some other title</h1>
                             </div>
-                            <div className='post-text'>
+                            <div className='post-text sub-post-text'>
                                 <p>
                                     Some Paragraph about the post to serve as an intro
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
@@ -72,7 +74,7 @@ const Home = function () {
                             <div className='post-title'>
                                 <h1>Some other title</h1>
                             </div>
-                            <div className='post-text'>
+                            <div className='post-text sub-post-text'>
                                 <p>
                                     Some Paragraph about the post to serve as an intro
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
@@ -88,9 +90,18 @@ const Home = function () {
                     </div>
                 </div>
                 <div className='posts'>
-
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </div>
-                
+                <div>
+                    <h1>Footer</h1>
+                </div>
             </div>
         </>
     )
