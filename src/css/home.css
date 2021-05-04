@@ -124,6 +124,7 @@
   .featured-post-main-image {
     width: 100%;
     margin-bottom: 1rem;
+    padding-right: 0rem;
   }
   .featured-post-main-body {
     width: 100%;
@@ -147,5 +148,18 @@
 @media (max-width: 780px) {
   .featured-post-main-image {
     height: 309px;
+  }
+}
+@media (max-width: 700px) {
+  .featured-post-sub {
+    flex-direction: column;
+  }
+  .featured-post-sub-div {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .posts {
+    flex-direction: column;
   }
 }
