@@ -1,4 +1,5 @@
 import Header from '../components/header';
+import Footer from '../components/Footer';
 import '../css/home.css';
 import sampleImage1 from '../assets/karsten-winegeart-guCLBw5Cflc-unsplash.jpg';
 import sampleImage2 from '../assets/paul-hanaoka-kDrEpX6Yo_w-unsplash.jpg';
@@ -99,10 +100,8 @@ const Home = function () {
                     <Card />
                     <Card />
                 </div>
-                <div>
-                    <h1>Footer</h1>
-                </div>
             </div>
+            <Footer/>
         </>
     )
 }
