@@ -48,6 +48,10 @@
 .nav-drawer {
   display: none;
 }
+.navlink {
+  text-decoration: none;
+  color: black;
+}
 @media (max-width: 1200px) {
   .header {
     margin-left: 20px;
