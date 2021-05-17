@@ -2,6 +2,7 @@ import '../css/header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
+import {Link } from 'react-router-dom';
 
 const Header = () => {
     const [showDrawer, setShowDrawer] = useState(false);
@@ -10,13 +11,17 @@ const Header = () => {
     }
     return (
         <div className='header'>
-            <div className='header-left'>   
-                <h1>Strawhat-Developer</h1>
+            <div className='header-left'>
+                <Link to='/' className='navlink'>
+                    <h1>Strawhat-Developer</h1>
+                </Link>    
             </div>
             <div className='header-right'>
                 <div className='header-links'>
                     <p>About</p>
-                    <p>Blog</p>
+                    <Link to='/blog' className='navlink'>
+                        <p>Blog</p>
+                    </Link>
                 </div>
                 <button className='contact-btn'>
                     Get in touch
@@ -32,7 +37,9 @@ const Header = () => {
                 <div className='nav-box'>
                     <div className='box'>
                         <p>About</p>
-                        <p>Blog</p>
+                        <Link to='/blog' className='navlink'>
+                            <p>Blog</p>
+                        </Link>
                         <button className='contact-btn'>
                         Get in touch
                         </button>
